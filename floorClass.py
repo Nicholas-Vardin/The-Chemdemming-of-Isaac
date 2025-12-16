@@ -345,7 +345,7 @@ class greyGolferFloor(floor):
         normalRoomIds = ['corner spike room','basic fly room','other fly room']
         secretRoomIds = ['normal secret room','chest secret room']
         itemRoomIds = ['normal item room','chest item room']
-        bossRoomIds = ['longDivider boss room','schmeerestOfSchmoo boss room','lordOfTheFlies boss room','bigHead boss room']
+        bossRoomIds = ['longDivider boss room','schmeerestOfSchmoo boss room','lordOfTheFlies boss room',]
         startRoomIds = ['test start room']
         possibleRoomIds = normalRoomIds + itemRoomIds + bossRoomIds + startRoomIds + secretRoomIds + shopIds
         numRooms = random.randint(6,8)
@@ -385,3 +385,4 @@ class endFloor(floor):
         numRooms = random.randint(10, 15)
         super().__init__(screen, space, oLoop, oPrinceEventHandler, oItemHandler, oPlayer, floorTileClr, wallClr, basicDoorClr,
                          possibleRoomIds=possibleRoomIds, numRooms=numRooms,numItemRooms=1,musicFile=r'music\endFloorMusic.mp3')
+
