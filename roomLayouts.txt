@@ -1,0 +1,287 @@
+template - id
+type normal, item, or boss
+tiles (id,row,col)
+pickups (row,col)
+enemies (id,row,col)
+Maybe add something for this line later
+connecting directions (u,d,l,r)
+test room
+normal
+(rock,5,5)(pot,2,8)(bomb rock,5,4)(bomb barrel,6,9)
+(golden chest,6,6)(random,7,8)(rock chest,6,11)
+
+
+(u,d,l,r)
+test empty room
+normal
+(rock,5,5)(pot,2,8)(bomb rock,5,4)(bomb barrel,6,9)
+
+
+
+(u,d,l,r)
+test start room
+start
+
+
+
+
+(u,d,l,r)
+test item room
+item
+(item pedestal,6,6)(item pedestal,7,6)(item pedestal,8,6)(item pedestal,9,6)
+
+
+
+(u,d,l,r)
+test boss room
+boss
+(rock,2,3)(rock,3,4)
+
+(schmeerestOfSchmoo,6,9)
+
+(u,d,l,r)
+test secret room
+secret
+(rock,7,8)(rock,7,9)(item pedestal,3,12)(item pedestal,3,15)
+
+
+
+(u,d,l,r)
+test shop room
+shop
+(pickup shop tile,6,6)(item shop tile,6,7)(pickup shop tile,6,8)(pickup shop tile,6,9)(pickup shop tile,6,10)
+
+
+
+(u,d,l,r)
+rock grid
+normal
+(rock,3,5)(rock,3,7)(rock,3,9)(rock,3,11)(rock,3,13)(rock,3,15)(rock,3,17)(rock,6,5)(rock,6,7)(rock,6,9)(rock,6,11)(rock,6,13)(rock,6,15)(rock,6,17)
+
+(explodeyGoober,6,6)(shootyGoober,4,9)(goober,1,1)(goober,10,22)
+
+(u,d,l,r)
+saucy rock grid
+normal
+(rock,3,5)(rock,3,7)(rock,3,9)(rock,3,11)(rock,3,13)(rock,3,15)(rock,3,17)(rock,6,5)(rock,6,7)(rock,6,9)(rock,6,11)(rock,6,13)(rock,6,15)(rock,6,17)
+
+(explodeyGoober,6,6)(explodeyGoober,4,9)(regenGoober,1,1)(multipliTerror,10,22)
+
+(u,d,l,r)
+trapped room
+normal
+(rock,2,1)(bomb barrel,1,2)(rock,2,2)
+
+(superSpider,1,1)
+
+(u,d,l,r)
+corner spike room
+normal
+(spikes,1,4)(spikes,2,4)(spikes,3,4)(rock,4,4)(spikes,4,3)(spikes,4,2)(spikes,4,1)(spikes,1,19)(spikes,2,19)(spikes,3,19)(rock,4,19)(spikes,4,20)(spikes,4,21)(spikes,4,22)(spikes,7,1)(spikes,7,2)(spikes,7,3)(rock,7,4)(spikes,8,4)(spikes,9,4)(spikes,10,4)(spikes,7,23)(spikes,7,22)(spikes,7,21)(spikes,7,20)(rock,7,19)(spikes,8,19)(spikes,9,19)(spikes,10,19)(spikes,11,19)
+(random,2,2)(random,2,21)(random,9,2)(random,9,21)
+(schmoo,5,7)(schmoo,7,7)(superSpider,5,16)(shooterFly,7,16)
+
+(u,d)
+saucy corner spike room
+normal
+(spikes,1,4)(spikes,2,4)(spikes,3,4)(rock,4,4)(spikes,4,3)(spikes,4,2)(spikes,4,1)(spikes,1,19)(spikes,2,19)(spikes,3,19)(rock,4,19)(spikes,4,20)(spikes,4,21)(spikes,4,22)(spikes,7,1)(spikes,7,2)(spikes,7,3)(rock,7,4)(spikes,8,4)(spikes,9,4)(spikes,10,4)(spikes,7,23)(spikes,7,22)(spikes,7,21)(spikes,7,20)(rock,7,19)(spikes,8,19)(spikes,9,19)(spikes,10,19)(spikes,11,19)
+(random,2,2)(random,2,21)(random,9,2)(random,9,21)
+(schmoo,5,7)(shootyMcFly,7,7)(regenGoober,5,16)(shooterFly,7,16)
+
+(u,d)
+rock cave room
+normal
+(rock,1,4)(rock,1,5)(rock,1,6)(pot,1,7)(rock,1,8)(rock,1,9)(rock,2,4)(rock,2,5)(rock,2,6)(rock,2,7)(rock,2,8)(rock,2,9)(rock,3,1)(rock,3,2)(rock,3,3)(rock,3,4)(rock,3,5)(rock,3,6)(rock,3,7)(rock,3,8)(rock,8,1)(rock,8,2)(rock,8,3)(rock,8,4)(rock,8,5)(rock,8,6)(rock,9,4)(rock,9,5)(rock,9,6)(rock,9,7)(rock,9,8)(rock,9,9)(rock,10,4)(rock,10,5)(rock,10,6)(rock,10,7)(rock,10,8)(rock,10,9)(rock,1,14)(rock,2,14)(rock,3,15)(rock,3,16)(rock,3,17)(rock,4,18)(rock,7,17)(rock,7,16)(rock,8,15)(rock,9,14)(rock,10,14)
+(random,10,2)(random,1,2)
+(goober,10,18)(shootyGoober,9,20)(goober,2,19)
+
+(u,d,l)
+saucy rock cave room
+normal
+(rock,1,4)(rock,1,5)(rock,1,6)(pot,1,7)(rock,1,8)(rock,1,9)(rock,2,4)(rock,2,5)(rock,2,6)(rock,2,7)(rock,2,8)(rock,2,9)(rock,3,1)(rock,3,2)(rock,3,3)(rock,3,4)(rock,3,5)(rock,3,6)(rock,3,7)(rock,3,8)(rock,8,1)(rock,8,2)(rock,8,3)(rock,8,4)(rock,8,5)(rock,8,6)(rock,9,4)(rock,9,5)(rock,9,6)(rock,9,7)(rock,9,8)(rock,9,9)(rock,10,4)(rock,10,5)(rock,10,6)(rock,10,7)(rock,10,8)(rock,10,9)(rock,1,14)(rock,2,14)(rock,3,15)(rock,3,16)(rock,3,17)(rock,4,18)(rock,7,17)(rock,7,16)(rock,8,15)(rock,9,14)(rock,10,14)
+(random,10,2)(random,1,2)
+(regenGoober,10,18)(shootyGoober,9,20)(multipliTerror,2,19)
+
+(u,d,l)
+basic fly room
+normal
+
+(random,3,18)
+(teenyFly,3,6)(shooterFly,2,8)(trackerFly,8,17)(teenyFly,10,16)
+
+(u,d,l,r)
+other fly room
+normal
+
+(random,6,12)
+(vShooterFly,3,6)(shootyMcFly,2,8)(teenyFly,10,16)
+
+(u,d,l,r)
+rock goober room
+normal
+(rock,3,4)(rock,3,5)(bomb rock,3,6)(rock,1,14)(rock,2,14)(rock,3,14)(rock,3,16)(rock,3,17)(rock,3,19)(rock,3,20)(rock,3,21)(pot,7,16)(rock,6,17)(rock,7,18)(rock,8,14)(rock,9,14)(rock,10,14)(rock,8,4)(pot,7,5)(rock,7,6)(rock,8,6)(rock,9,7)(rock,10,7)
+(random,10,22)
+(shootyGoober,1,2)(goober,1,18)(goober,2,20)(explodeyGoober,10,4)(goober,9,18)(goober,10,20)
+
+(u,d,l,r)
+spike cage room
+normal
+(spikes,4,9)(spikes,4,10)(spikes,4,11)(spikes,4,12)(spikes,4,13)(spikes,4,14)(spikes,4,14)(spikes,5,14)(spikes,6,14)(spikes,7,14)(spikes,8,14)(spikes,4,9)(spikes,5,9)(spikes,6,9)(spikes,7,9)(spikes,7,10)(spikes,7,11)(spikes,7,12)(spikes,7,13)(spikes,7,14)
+(random,2,4)
+(shootyMcFly,6,13)(shooterFly,5,13)(shootyMcFly,5,10)(shooterFly,6,10)(schmoo,10,22)(schmoo,3,22)
+
+(u,d,l,r)
+saucy spike cage room
+normal
+(spikes,4,9)(spikes,4,10)(spikes,4,11)(spikes,4,12)(spikes,4,13)(spikes,4,14)(spikes,4,14)(spikes,5,14)(spikes,6,14)(spikes,7,14)(spikes,8,14)(spikes,4,9)(spikes,5,9)(spikes,6,9)(spikes,7,9)(spikes,7,10)(spikes,7,11)(spikes,7,12)(spikes,7,13)(spikes,7,14)
+(random,2,2)(random,2,21)
+(shootyMcFly,6,13)(trackerFly,5,13)(regenGoober,5,8)(shooterFly,6,10)(goober,2,2)(speedyGoober,9,22)
+
+(u,d,l,r)
+spider room
+normal
+(rock,6,12)(rock,6,13)(rock,7,12)
+(random,2,2)(random,2,21)
+(spider,6,13)(superSpider,5,13)(spider,5,10)
+
+(u,d,l,r)
+blow up escape room
+normal
+(rock,1,7)(rock,2,7)(rock,3,7)(rock,3,8)(rock,4,8)(rock,4,9)(rock,5,10)(rock,5,11)(rock,5,12)(rock,5,13)(rock,4,14)(rock,4,15)(rock,3,15)(rock,3,16)(rock,2,16)(rock,1,16)(bomb barrel,6,11)(bomb barrel,6,12)
+
+(speedyGoober,1,11)(speedyGoober,1,12)(shootyGoober,2,11)(shootyGoober,2,12)(shootyMcFly,9,16)(shootyMcFly,9,8)
+
+(d,l,r)
+normal shop room
+shop
+(pickup shop tile,7,6)(item shop tile,7,9)(pickup shop tile,7,13)(pickup shop tile,7,16)
+
+
+
+(u,d,l,r)
+cheap shop room
+shop
+(pickup shop tile,7,9)(pickup shop tile,7,13)
+(chest,3,6)(random,9,4)
+
+
+(u,d,l,r)
+super shop room
+shop
+(pickup shop tile,7,6)(pickup shop tile,7,9)(pickup shop tile,7,13)(pickup shop tile,7,16)(item shop tile,4,13)(item shop tile,4,9)
+(golden chest,3,6)(chest,3,16)
+
+
+(u,d,l,r)
+normal item room
+item
+(item pedestal,6,11)
+(random,3,2)(random,9,21)
+
+
+(u,d,l,r)
+chest item room
+item
+(item pedestal,6,11)
+(golden chest,5,3)(random,4,20)
+
+
+(u,d,l,r)
+double item room
+item
+(item pedestal,6,8)(item pedestal,6,11)
+
+
+
+(u,d,l,r)
+chest secret room
+secret
+
+(chest,6,8)(golden chest,6,11)(rock chest,6,15)
+
+
+(u,d,l,r)
+item secret room
+secret
+(item pedestal,4,7)
+(chest,9,16)
+
+
+(u,d,l,r)
+item item secret room
+secret
+(item pedestal,4,7)(item pedestal,4,10)
+
+
+
+(u,d,l,r)
+leBro boss room
+boss
+(rock,3,4)(rock,3,3)(rock,4,4)(rock,4,3)(rock,2,16)(rock,9,5)(rock,10,6)(rock,10,9)(rock,8,15)(rock,9,16)(rock,8,17)
+
+(leBro,5,8)(leBro,5,13)
+
+(u,d,l,r)
+leBombBro boss room
+boss
+(rock,3,4)(rock,3,3)(rock,4,4)(rock,4,3)(rock,2,16)(rock,4,16)(rock,9,5)(rock,10,6)(rock,10,9)(rock,8,15)(rock,9,16)(rock,8,17)
+
+(leBombBro,5,8)(leBombBro,5,13)
+
+(u,d,l,r)
+longDivider boss room
+boss
+(rock,2,2)(rock,3,2)(rock,2,3)(rock,2,4)(rock,2,5)(rock,4,6)(rock,3,20)(rock,2,20)(rock,2,16)(rock,2,21)(rock,8,5)(bomb rock,9,4)(rock,9,5)(rock,9,6)(rock,7,19)(rock,9,20)(rock,9,21)(rock,9,22)
+
+(longDivider,6,10)
+
+(u,d,l,r)
+schmeerestOfSchmoo boss room
+boss
+(rock,2,2)(rock,3,2)(rock,2,4)(rock,2,5)(rock,4,6)(rock,2,20)(rock,8,5)(bomb rock,9,4)(rock,9,5)(rock,9,20)(rock,9,21)(rock,9,22)
+
+(schmeerestOfSchmoo,6,10)
+
+(u,d,l,r)
+lordOfTheFlies boss room
+boss
+
+
+(lordOfTheFlies,6,10)
+
+(u,d,l,r)
+kingOfTheFlies boss room
+boss
+
+
+(kingOfTheFlies,6,10)
+
+(u,d,l,r)
+mrKrabs boss room
+boss
+(rock,2,2)(bomb rock,9,4)(rock,9,20)(rock,9,21)
+
+(mrKrabs,6,10)
+
+(u,d,l,r)
+bigHead boss room
+boss
+(rock,3,5)(rock,3,7)(rock,3,9)(rock,3,11)(rock,3,13)(rock,3,15)(rock,3,17)(rock,6,5)(rock,6,7)(rock,6,13)(rock,6,15)(rock,6,17)
+
+(bigHead,6,10)
+
+(u,d,l,r)
+jackBlack boss room
+boss
+
+
+(jackBlack,6,10)
+
+(u,d,l,r)
+chemistry boss room
+boss
+
+
+(chemistry,6,10)
+
+(u,d,l,r)
